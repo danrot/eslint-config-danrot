@@ -1,7 +1,13 @@
 {
 	"name": "eslint-config-danrot",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"license": "MIT",
-	"keywords": ["eslint"]
+	"keywords": [
+		"eslint"
+	],
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.11.0",
+		"@typescript-eslint/parser": "^5.11.0"
+	}
 }

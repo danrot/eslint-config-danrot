@@ -4,7 +4,10 @@ module.exports = {
 	parserOptions: {
 		"project": ["./tsconfig.json"]
 	},
-	plugins: ["@typescript-eslint"],
+	plugins: ["@typescript-eslint", "jest"],
+	env: {
+		"jest/globals": true,
+	},
 	rules: {
 		"array-bracket-spacing": ["error", "never"],
 		"arrow-spacing": ["error", {before: true, after: true}],
@@ -12,6 +15,7 @@ module.exports = {
 		"comma-dangle": ["error", "always-multiline"],
 		"curly": ["error"],
 		"indent": ["error", "tab"],
+		"jest/consistent-test-it": ["error", {fn: "it"}],
 		"keyword-spacing": ["error", {before: true, after: true}],
 		"no-alert": ["error"],
 		"no-console": ["error"],

@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-danrot",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"main": "index.js",
 	"license": "MIT",
 	"keywords": [
@@ -8,6 +8,7 @@
 	],
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.11.0",
-		"@typescript-eslint/parser": "^5.11.0"
+		"@typescript-eslint/parser": "^5.11.0",
+		"eslint-plugin-jest": "^26.1.0"
 	}
 }
